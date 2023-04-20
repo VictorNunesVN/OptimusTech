@@ -1,3 +1,34 @@
 :root{
     --fonte-principal:'Inter', sans-serif;
+    --cinza: #667085;
+    --vinho: #8E2424;
+    --cinza2: #3A404E;
+    --base: white;
+    
+}
+
+.entrar{
+    text-decoration: none;
+}
+
+.cinza1{
+    color: var(--cinza) !important;
+}
+.fonteTexto{
+    font-family: var(--fonte-principal);
+}
+.titulo{
+    font-size: 18px;
+}
+.cadastrar{
+    background-color: var(--vinho);
+    border: none;
+    color: var(--base);
+}
+.cadastrar:hover{
+    background-color: var(--vinho);
+    color: var(--base);
+}.cadastrar:active{
+    background-color: rgb(105, 3, 3) !important;
+    color: var(--base) !important;
 }
