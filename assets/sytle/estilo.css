@@ -5,6 +5,7 @@
     --cinza2: #3A404E;
     --base: white;
     --azul-escuro: #101828;
+    --vermelho-claro: rgba(142, 36, 36, 0.05)
     
 }
 
@@ -59,6 +60,7 @@ body{
     color: var(--cinza);
     margin: 0 200px 0 200px;
     line-height: 30px;
+    font-size: 20px;
 }
 
 .banner2{
@@ -84,4 +86,14 @@ body{
 .paragrafo-banner2{
     font-size: 16px;
     
+}
+
+.borda-banner3{
+    background: var(--vermelho-claro);
+    border-radius: 16px;
+    width: 150px;
+    padding-top: 5px;
+    height: 28px;
+    margin: auto;
+    vertical-align: center;
 }
