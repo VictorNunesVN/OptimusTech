@@ -4,7 +4,12 @@
     --vinho: #8E2424;
     --cinza2: #3A404E;
     --base: white;
+    --azul-escuro: #101828;
     
+}
+
+body{
+    margin: 0 70px 0 70px;
 }
 
 .entrar{
@@ -52,6 +57,25 @@
 
 .txt-banner{
     color: var(--cinza);
-    margin: 0 240px 0 240px;
+    margin: 0 200px 0 200px;
     line-height: 30px;
+}
+
+.banner2{
+    margin-bottom: 96px;
+}
+
+.estatisticas{
+    width: 280px;
+}
+
+.tit_banner2{
+    color: var(--vinho);
+    
+}
+
+.txt-banner2{
+    color: var(--azul-escuro);
+    font-size: 18px;
+    line-height: 24px;
 }
