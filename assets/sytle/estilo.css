@@ -5,12 +5,14 @@
     --cinza2: #3A404E;
     --base: white;
     --azul-escuro: #101828;
-    --vermelho-claro: rgba(142, 36, 36, 0.05)
+    --vermelho-claro: rgba(142, 36, 36, 0.05);
+    --fundo-rodape:#F9FAFB;
+
     
 }
 
-body{
-    margin: 0 70px 0 70px;
+.margem{
+    margin: 0 80px 0 80px;
 }
 /*cabeçalho*/
 .entrar{
@@ -140,4 +142,13 @@ body{
     width: 1088px;
     font-size: 36px;
     line-height: 44px;
+}
+
+.rodape{
+    background-color: var(--fundo-rodape);
+    padding: 96px 0 50px 0;
+}
+
+.largura-email{
+    width: 360px;
 }
