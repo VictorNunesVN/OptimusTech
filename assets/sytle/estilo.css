@@ -7,8 +7,6 @@
     --azul-escuro: #101828;
     --vermelho-claro: rgba(142, 36, 36, 0.05);
     --fundo-rodape:#F9FAFB;
-
-    
 }
 
 .margem{
@@ -75,19 +73,16 @@
 
 .tit_banner2{
     color: var(--vinho);
-    
 }
 
 .txt-banner2{
     color: var(--azul-escuro);
     font-size: 18px;
-    line-height: 24px;
-    
+    line-height: 24px; 
 }
 
 .paragrafo-banner2{
     font-size: 16px;
-    
 }
 
 /*banner3*/
@@ -121,7 +116,6 @@
 .tit-cargo{
     margin-bottom: 32px;
     color: var(--azul-escuro);
-    
 }
 
 .cx-vagas{
