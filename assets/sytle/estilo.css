@@ -12,7 +12,7 @@
 body{
     margin: 0 70px 0 70px;
 }
-
+/*cabeçalho*/
 .entrar{
     text-decoration: none;
 }
@@ -43,7 +43,7 @@ body{
     background-color: rgb(105, 3, 3) !important;
     color: var(--base) !important;
 }
-
+/*banner1*/
 .banner1{
     margin: 96px 0 96px 0;
 }
@@ -62,7 +62,7 @@ body{
     line-height: 30px;
     font-size: 20px;
 }
-
+/*banner2*/
 .banner2{
     margin-bottom: 96px;
 }
@@ -88,6 +88,7 @@ body{
     
 }
 
+/*banner3*/
 .banner3{
     margin: 64px 0 64px 0;
 }
@@ -104,4 +105,23 @@ body{
 
 .tamFonte36{
     font-size: 36px;
+}
+/*banner4*/
+.banner4{
+    margin: 62px 256px;
+}
+
+.tit-vagas{
+    margin-bottom: 32px;
+    color: var(--azul-escuro);
+}
+
+.tit-cargo{
+    margin-bottom: 32px;
+    color: var(--azul-escuro);
+    
+}
+
+.cx-vagas{
+    padding: 24px 24px 28px 24px;
 }
