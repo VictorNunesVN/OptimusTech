@@ -88,6 +88,10 @@ body{
     
 }
 
+.banner3{
+    margin: 64px 0 64px 0;
+}
+
 .borda-banner3{
     background: var(--vermelho-claro);
     border-radius: 16px;
@@ -96,4 +100,8 @@ body{
     height: 28px;
     margin: auto;
     vertical-align: center;
+}
+
+.tamFonte36{
+    font-size: 36px;
 }
