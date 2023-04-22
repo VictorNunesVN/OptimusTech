@@ -125,3 +125,19 @@ body{
 .cx-vagas{
     padding: 24px 24px 28px 24px;
 }
+
+/*article*/
+.opinioes{
+    background-color: var(--vermelho-claro);
+    margin-bottom: 96px;
+}
+
+.tit-opinioes{
+    color: var(--vinho);
+}
+
+.txt-opinioes{
+    width: 1088px;
+    font-size: 36px;
+    line-height: 44px;
+}
