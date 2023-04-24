@@ -35,6 +35,10 @@
     color: var(--base);
 }
 
+.botoes_telaMenor{
+    display: none;
+}
+
 .cadastrar:hover{
     background-color: var(--vinho);
     color: var(--base);
@@ -58,10 +62,12 @@
 
 .txt-banner{
     color: var(--cinza);
-    margin: 0 200px 0 200px;
     line-height: 30px;
     font-size: 20px;
+    margin: 0 200px 0 200px;
 }
+
+
 /*banner2*/
 .banner2{
     margin-bottom: 96px;
@@ -147,12 +153,23 @@
     width: 360px;
 }
 
-@media (min-width:768px ){
+
+@media (max-width:768px ){
+    .botoes_telaMenor{
+        display: block;
+        text-align: end;
+    }
+    .botoes{
+        display: none;
+    }
     .banner2{
         display: grid;
         ;
     }
     .txt-opinioes{
         font-size: 30px;
+    }
+    .txt-banner{
+        margin: 0 60px 0 60px;
     }
 }
