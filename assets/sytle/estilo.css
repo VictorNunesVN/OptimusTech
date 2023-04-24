@@ -146,12 +146,11 @@
 .largura-email{
     width: 360px;
 }
-.img-reuniao{
-    display: block;
-}
-@media (max-width:768px ){
-    .img-reuniao{
-        display: none;
+
+@media (min-width:768px ){
+    .banner2{
+        display: grid;
+        ;
     }
     .txt-opinioes{
         font-size: 30px;
