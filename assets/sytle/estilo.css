@@ -153,6 +153,9 @@
     width: 360px;
 }
 
+.txt-opinioes2{
+    display: none;
+}
 
 @media (max-width:768px){
     .botoes_telaMenor{
@@ -186,6 +189,13 @@
     }
     .cx-vagas{
         margin: 0 10px;
+    }
+    .txt-opinioes2{
+        display: block;
+    }
+    .opinioes{
+        margin: auto;
+
     }
 }
 @media (min-width:320px){
