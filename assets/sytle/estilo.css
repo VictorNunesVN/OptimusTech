@@ -154,7 +154,7 @@
 }
 
 
-@media (max-width:768px ){
+@media (max-width:768px){
     .botoes_telaMenor{
         display: block;
         text-align: end;
@@ -174,8 +174,9 @@
     }
 }
 
-@media (max-width:296px){
+@media (min-width:320px){
     .cabecalho{
         margin: 0 1.25rem 0 1.25rem;
     }
+    
 }
