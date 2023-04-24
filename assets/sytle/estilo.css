@@ -10,7 +10,7 @@
 }
 
 .margem{
-    margin: 0 80px 0 80px;
+    margin: 0 5rem 0 5rem;
 }
 /*cabeçalho*/
 .entrar{
@@ -133,7 +133,7 @@
 }
 
 .txt-opinioes{
-    width: 1088px;
+    width: auto;
     font-size: 36px;
     line-height: 44px;
 }
@@ -145,4 +145,15 @@
 
 .largura-email{
     width: 360px;
+}
+.img-reuniao{
+    display: block;
+}
+@media (max-width:768px ){
+    .img-reuniao{
+        display: none;
+    }
+    .txt-opinioes{
+        font-size: 30px;
+    }
 }
